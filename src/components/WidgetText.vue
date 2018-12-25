@@ -28,7 +28,7 @@
                     <tr v-if="getDataField('Temperature')">
                         <th>溫度</th>
                         <td>
-                            <span class="value">{{ getDataField('Humidity') }}</span>
+                            <span class="value">{{ getDataField('Temperature') }}</span>
                             <span class="unit">℃</span>
                         </td>
                     </tr>
