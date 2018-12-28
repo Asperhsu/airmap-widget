@@ -25,7 +25,7 @@ export const Widget = {
         }
     },
     computed: {
-        sitePageUrl() { return sitePageUrl(); },
+        sitePageUrl() { return host.replace('widget.', ''); },
 
         displayName() {
             return this.settings.name || deepFind(this.latest, 'SiteName');

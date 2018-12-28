@@ -2,7 +2,7 @@ import axios from 'axios';
 import { host } from './helpers';
 
 export const siteApi = (group, uuid) => {
-    return `${host}/api/widget/${group}$${uuid}`;
+    return `${host}/api/site-json/${group}$${uuid}`;
 }
 
 export const fetchLatest = (url) => {
