@@ -1,13 +1,13 @@
 <template>
     <div class="warning">
-        本系統僅供參考，空氣品質相關資訊，仍應以環保署資訊為準。
+        本網域將於3/1停用。<a href="https://airmap.g0v.tw">詳細資訊</a>
     </div>
 </template>
 
 <style scoped>
     .warning {
-        background: red;
-        color: #fff;
+        background: rgb(247, 228, 57);
+        color: #000;
         font-size: .7em;
         font-weight: bolder;
         text-align: center;
