@@ -24,3 +24,19 @@ Array.from(document.getElementsByClassName('airmap-widget'))
             el: el,
         })
     })
+
+Array.from(document.getElementsByClassName('airmap-single-widget'))
+    .map(function (el) {
+        let type = el.dataset.type;
+        if (!type) return;
+
+        let attributes = Object.keys(el.dataset)
+            .filter(name => name !== 'type')
+            .map(name => `${name}="${el.dataset[name]}"`)
+            .join(" ");
+
+        new Vue({
+            el: el,
+            template: `<widget-${type} ${attributes}></widget-${type}>`
+        })
+    })
