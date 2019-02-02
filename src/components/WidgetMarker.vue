@@ -67,6 +67,10 @@
 <style src="normalize.css/normalize.css" scoped></style>
 <style src="@/common.css" scoped></style>
 <style scoped>
+    .g0v-airmap-widget-text {
+        position: relative;
+    }
+
     .header {
         display: flex;
         justify-content: space-between;

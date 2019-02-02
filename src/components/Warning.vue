@@ -1,13 +1,13 @@
 <template>
     <div class="warning">
-        本系統僅供參考，空氣品質相關資訊，仍應以環保署資訊為準。
+        數值僅供參考，空氣品質應以<a href="https://taqm.epa.gov.tw/taqm" target="_blank">環保署</a>為準
     </div>
 </template>
 
 <style scoped>
     .warning {
-        background: red;
-        color: #fff;
+        background: #f98f0b;
+        color: #000;
         font-size: .7em;
         font-weight: bolder;
         text-align: center;
