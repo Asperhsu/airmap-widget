@@ -1,6 +1,6 @@
 <template>
     <div class="g0v-airmap-widget-thin">
-        <Warning />
+        <!-- <Warning /> -->
 
         <div class="header">
             {{ displayName }}
@@ -54,11 +54,11 @@
 
 <script>
     import { Widget } from '@/mixin.js';
-    import Warning from './Warning.vue';
+    // import Warning from './Warning.vue';
 
     export default {
         mixins: [Widget],
-        components: {Warning},
+        // components: {Warning},
     }
 </script>
 

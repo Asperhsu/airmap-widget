@@ -1,6 +1,6 @@
 <template>
     <div class="g0v-airmap-widget-text">
-        <Warning />
+        <!-- <Warning /> -->
 
         <div class="header">
             <a :href="sitePageUrl" title="site detail page" target="g0vDetail">
@@ -55,11 +55,11 @@
 
 <script>
     import { Widget } from '@/mixin.js';
-    import Warning from './Warning.vue';
+    // import Warning from './Warning.vue';
 
     export default {
         mixins: [Widget],
-        components: {Warning},
+        // components: {Warning},
     }
 </script>
 

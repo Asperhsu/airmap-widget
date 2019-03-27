@@ -1,6 +1,6 @@
 <template>
     <div class="g0v-airmap-widget-text">
-        <Warning />
+        <!-- <Warning /> -->
 
         <div class="header">
             <div class="text-left" title="溫度" v-if="getDataField('Temperature')">
@@ -43,11 +43,11 @@
 
 <script>
     import { Widget } from '@/mixin.js';
-    import Warning from './Warning.vue';
+    // import Warning from './Warning.vue';
 
     export default {
         mixins: [Widget],
-        components: {Warning},
+        // components: {Warning},
         computed: {
             containerWidth () {
                 return this.$root && this.$root.$el && this.$root.$el.offsetWidth;
